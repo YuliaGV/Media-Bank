@@ -1,0 +1,147 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    font-size: 62.5%; /*reset para rems 10px de 16px*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    font-size: 1.6rem !important;
+    line-height: 2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+   }
+
+input, button{
+    font-size: 1.6rem !important;
+}
+
+
+.nav-item{
+    padding: 0.5rem;
+    color: rgb(0, 0, 0) !important;
+}
+
+.btn-buscar{
+    background-color: rgb(247, 104, 38);
+    color: white;
+    font-size: 1.6rem;
+}
+
+
+.card{
+    border-radius: 0.25rem;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card-columns{
+    column-count: 1;
+}
+
+
+@media(min-width: 576px) {
+    .card-columns{
+        column-count: 2;
+    }
+}
+
+@media(min-width: 768px) {
+    .card-columns{
+        column-count: 3;
+    }
+}
+
+@media(min-width: 992px) {
+    .card-columns{
+        column-count: 4;
+    }
+}
+    
+
+/*Images app*/
+
+.hero-imagen{
+    padding: 1rem;
+    background-image: url("../img/Fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 45vh;
+    
+}
+
+.btn-verimagen{
+    background-color: rgb(4, 75, 75);
+    color: white;
+    font-size: 1.6rem !important;
+    border : 1px dotted rgb(72, 83, 83);
+    border-radius: 5px;
+}
+
+.btn-verimagen:hover{
+    color: rgb(255, 128, 70);
+}
+
+.card-image{
+    background-color: rgba(255, 129, 70, 0.445);
+    border:  1px  dotted rgb(72, 83, 83);
+    transition: 0.3s;
+
+}
+
+.btn-pagina{
+    background-color: rgb(8, 37, 37);
+    color: white;
+    font-size: 1.2rem !important;
+    margin: 0.5rem 0.25rem;
+}
+
+.btn-pagina:hover{
+    color: c;
+}
+
+
+
+/*Gifs app*/
+
+
+.gifs-app{
+    background-color: #8BC6EC;
+}
+
+.card-gif{
+    background-color: rgb(8, 37, 37);
+    color: white;
+}
+  
+
+/*Lyrics app*/
+
+.lyrics-app{
+    background-image : url("../img/FondoLyrics.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.card-lyric{
+    background-color: rgb(4, 75, 75);
+    color: white;
+}
+
+.error {
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(207, 99, 49);
+    color: white;
+    text-align: center;
+}
